@@ -5,7 +5,7 @@ def q1
   names = ["田中", "佐藤", "佐々木", "高橋"]
 
   # 以下に回答を記載
-  names.push("斎藤")
+  names << "斎藤"
   p names
 end
 
@@ -28,7 +28,7 @@ def q4
   sports = ["サッカー", "フットサル", nil, "野球", "バスケ", nil, "バレー"]
 
   # 以下に回答を記載
-  sports.delete(nil)
+  sports.compact!
   # 以下は変更しないで下さい
   p sports
 end
@@ -62,6 +62,7 @@ def q8
 
   # 以下に回答を記載
 
+
   # 以下は変更しないで下さい
   p programming_languages
   p upper_case_programming_languages
@@ -71,7 +72,7 @@ def q9
   names = ["田中", "佐藤", "佐々木", "高橋"]
 
   # 以下に回答を記載
-
+  
 end
 
 def q10
